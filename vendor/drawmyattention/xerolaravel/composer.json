@@ -1,0 +1,24 @@
+{
+    "name": "drawmyattention/xerolaravel",
+    "description": "A Laravel 5 wrapper for Xero's PHP API",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/calcinai/xero-php"
+      }
+    ],
+    "require": {
+        "calcinai/xero-php": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Amo Chohan",
+            "email": "amo.chohan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "DrawMyAttention\\XeroLaravel\\": "/"
+        }
+    }
+}
